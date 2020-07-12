@@ -4,3 +4,197 @@ body{
 	color: #ffffff;
 	background-color: #61122f;
 }
+#header-nav{
+	border-radius: 0;
+	border: 0;
+	background-color: #ffffff;}
+#logo-img{
+	background: url('../images/logo.png') no-repeat;
+	height: 150px;
+	width: 150px;
+	margin: 10px 15px 10px 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Gochi Hand', cursive;
+	color: #b33c00;
+	font-size: 2em;
+	font-weight: 300%;
+	text-shadow: .5px .5px .5px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+.navbar-brand a:focus, .navbar-brand a:hover{
+	text-decoration: none;
+}
+.navbar-brand p{/*we are certified*/
+	color: #000;
+	font-size: .6em;
+	margin-top: 15px;
+}
+.navbar-brand p span{/*Certification star*/
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+
+}#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+font-size: 1.8em;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	text-align:right;
+	padding-bottom: 0;
+}
+#phone div{/**We deleiver*/
+	color: green;
+	text-align: right;
+	padding-right: 15.5px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+/* Home Page */
+#menu-tile, #special-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+	border: 2px solid #black;
+	position: relative;
+}
+#home-tiles span{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 1.5em;
+	background-color: #000;
+	text-transform: uppercase;
+	opacity: .7;
+	color: #fff;
+	text-align: center;
+
+
+}
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 2px #cccccc;
+}
+#menu-tile{
+	background: url('../images/menu.jpeg') no-repeat;
+	background-position: center;
+}
+#special-tile{
+	background: url('../images/specials.jpg') no-repeat;
+	background-position: center;
+}
+/*We are certifed.....is styled directly in element*/
+/*------------------Media Queries----------------------*/
+
+
+/* *********************************Super Extra small Devices**************************** */
+@media (max-width: 450px){
+#home-tiles #menu-tile, #home-tiles #special-tile, #home-tiles #map-tile{
+	width: 250px;
+	margin: 0 auto 15px;
+}
+#home-tiles span{
+font-size: 1em;
+}
+.navbar-brand a h1{
+font-size: 7vw;
+}
+}
+/* ***********************Xtra Small Devices only************************* */
+@media (max-width: 767px) {
+	.navbar-brand{
+	padding-top: 10px;
+	height: 60px;
+}
+.navbar-brand h1{
+font-size: 4vw;
+}
+.navbar-brand p{/*we are certified*/
+	font-size: .5em;
+	margin-top: 0px;
+}
+.navbar-brand p img{
+	height: 10px;
+	margin-top: 0px;
+}
+#collapsable-nav a{
+	font-size: 1.2em;
+}
+#nav-list a span{
+font-size: 1em;
+margin-right: 5px;
+}
+.container .jumbotron{
+	border: 2px solid #3f071f;
+	box-shadow: 0 0 100px black;
+	padding: 0;
+}
+#menu-tile, #special-tile{
+	width: 413px;
+	margin: 0 auto 15px;
+}
+	
+}
+
+/* *********************************Small Devices Only***************************** */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand h1{
+	font-size: 1.7em;
+	font-weight: 280%;
+}
+.navbar-brand p{/*we are certified*/
+	font-size: .5em;
+	margin-top: 2px;
+}
+.container .jumbotron{
+	background: url(../images/restaurant-768.jpg) no-repeat;
+	height: 454px;
+	border: 2px solid #3f071f;
+	box-shadow: 0 0 100px black;
+	}
+}
+
+/* *********************************Medium Devices only***************************** */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container .jumbotron{
+	background: url(../images/restaurant-992.jpg) no-repeat;
+	height: 578px;
+	border: 2px solid #3f071f;
+	box-shadow: 0 0 100px black;
+	}
+}
+
+/* *********************************Large Devics only******************************** */
+@media (min-width: 1200px) { 
+.container .jumbotron{
+	background: url(../images/restaurant-1200.jpg) no-repeat;
+	height: 700px;
+	border: 2px solid #3f071f;
+	box-shadow: 0 0 100px black;
+	}
+}

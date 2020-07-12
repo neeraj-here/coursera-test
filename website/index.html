@@ -6,11 +6,85 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<title>David's china</title>
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<p> Not sure what's  happening ?</p>	
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="logo image"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1> DALCHINI </h1><h1 style="color: green;"> GREENS</h1></a>
+						<p>
+					    <img src="images/star.jpg" alt="We are certified		">
+						<span>We are certified</span> 
+						</p>
+				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>	
+        		<span class="icon-bar"></span>
+      			</button>
+			</div>
+			<div id="collapsable-nav" class="collapse navbar-collapse" >
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+						<a href="menu-categories.html">
+							<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="mob:8306180293">
+								<span>8306180293</span></a>
+								<div>*We Deliver</div>
+						</li>
+					</ul>
+				</div>
+		</nav>
+	</header>
 
+	<!-- Main Content -->
+	<div id="main-content" class="container">
+
+		<!-- Jumbotron -->
+		<div class="jumbotron">
+		<img src="images/restaurant-xs.jpg" alt="Interior of restaurant" class="img-responsive visible-xs">
+		</div>
+		<!-- Jumbotron Ends -->
+
+		<!-- Home-Tiles -->
+		<div id="home-tiles" class="row" >
+		<!-- Menu Tile -->
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<a href="menu-categories.html"><div id="menu-tile">
+				<span>Menu</span></div></a>
+			</div>
+			<!-- Specials Tile -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="single-category.html"><div id="special-tile">
+					<span>Specials</span></div></a>
+		</div>
+		<!-- Map Tile -->
+		<div class="col-md-4 col-sm-12 col-xs-12"><a href="https://goo.gl/maps/j2WxBefmnt5Xd1HG7" target="_blank"><div id="map-tile">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13985.033043675265!2d76.137683!3d28.8013767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe570a2c5ff2071e3!2sDalchini%20Greens%20Restaurant%20-%20Best%20Family%20Restaurant%20%7C%20Vegetarian%20Restaurants!5e0!3m2!1sen!2sin!4v1594527413519!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<span>Map</span>
+		</div></a></div>
+		</div>
+	</div>
 </body>
 </html>
