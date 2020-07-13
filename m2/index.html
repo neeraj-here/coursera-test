@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Module2</title>
+<style type="text/css">
+*{
+  box-sizing: border-box;
+  font-family:cursive;
+  }  
+body{
+  background-color:royalblue;
+}
+      
+h1{
+  text-align: center;
+  font-size: 50px;
+  border:2px solid black;
+    }
+     
+div{
+   width:33.33%;
+  float:right;
+     }
+
+section{
+  font-size: 20px;
+  border: 2px solid black;
+  margin:20px;
+  padding: 0px 0px 1px 0px;
+}
+
+
+h2{
+  font-size: 30px;
+  border:2px solid black;
+  padding: 0px 0px 10px 0px;
+  margin-top:0px ;
+  font-weight: bold;
+  float: right;
+  width:200px;
+  text-align: center;
+}
+
+section#Maths>h2{
+  background-color: red;
+}
+section#Data_Science>h2{
+  background-color: orange;
+}
+section#Big_Data>h2{
+  background-color: yellow;
+}
+
+p {
+   padding:60px 10px 10px 10px;
+}
+
+.div1{
+    width:100%;
+} 
+
+/*Desktop View*/
+@media(min-width: 950px)
+{
+  
+  .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
+  {
+    float:left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  
+}
+
+/*Tablet View*/
+@media(min-width: 667px)and (max-width: 949px){
+
+  .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
+  {
+    float:left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
+}
+/*Moblie View*/
+@media(max-width: 666px)
+{
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12
+  {
+    float:left;
+  }
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 74.99%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+}
+}</style>
+</head>
+<body>
+	<h1>Subjects!</h1>
+	<div class ="div1">
+	<div class="col-ld-4 col-md-6 col-xs-12">
+		<section id="Maths">
+			<h2>Maths</h2>
+              <p>
+		       Mathematicians seek and use patterns to formulate new conjectures; they resolve the truth or falsity of conjectures by mathematical proof. When mathematical structures are good models of real phenomena, mathematical reasoning can be used to provide insight or predictions about nature. 
+	          </p>
+        </section>
+	</div>
+
+	<div class="col-ld-4 col-md-6 col-xs-12">
+		<section id="Data_Science">
+            <h2>Data Science</h2>
+		        <p>
+		        Data science is a "concept to unify statistics, data analysis, machine learning, domain knowledge and their related methods" in order to "understand and analyze actual phenomena" with data.It uses techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, domain knowledge and information science.
+	            </p>		
+        </section>
+	</div>
+
+	<div class="col-ld-4 col-md-12 col-xs-12">
+		<section id="Big_Data">
+			<h2>Big Data</h2>
+                <p>
+		        Big data is a field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software.
+	            </p>
+		</section>
+	</div>
+	</div>
+</body>
+</html>
