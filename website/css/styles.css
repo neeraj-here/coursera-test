@@ -128,6 +128,7 @@ font-size: 1.8em;
 /* End Home */
 
 /* Menu Categories */
+
 h2{
 	margin-bottom: 50px;
 	font-size: 2.2em;
@@ -193,12 +194,12 @@ h2{
 /* End of menu categories */
 
 /* Indian main course*/
-#main-content h2#indian-main-course{
+#main-content h2{
 	font-family: 'Bad Script', cursive;
 	font-size: 2.4em;
 	font-weight: bold;
 	color: green;
-	margin-bottom: 7px;
+	margin-bottom: 20px;
 }
 div#note{
 	margin-bottom: 40px;
@@ -242,7 +243,24 @@ h3.item-title{
 	font-size: .9em;
 	font-style: italic;
 }
+/*Indian Main Course */
 
+/*About*/
+span#tagline{
+	font-family: 'Fondamento', cursive;
+	font-size: 2.3em;
+
+}
+#about-description p
+{	margin-top: 10px;
+	font-size: 1.8em;
+	font-family: 'Dancing Script', cursive;
+	line-height: 1.7em;
+	font-weight: 700%;
+	 word-spacing: 4.5px;
+
+}
+/*About*/
 
 /* Footer */
 .panel-footer{
