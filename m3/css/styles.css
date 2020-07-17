@@ -1,0 +1,22 @@
+.navbar-brand h1{
+	margin-top: 0;
+	margin-left: 0;
+	color: black;
+}
+ul#nav-list{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+div h2{
+	font-size: 3em;
+	margin-bottom: 50px;
+}
+section{
+	background-color: black;
+	color: white;
+	word-spacing: 1.2em;
+	line-height: 2em;
+	height: 3000px;
+	font-size: 2em;
+}
